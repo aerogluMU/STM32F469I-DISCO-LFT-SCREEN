@@ -1,4 +1,5 @@
 
+
 # STM32F469I-DISCO-LFT-SCREEN
 
 ## Content of Project
@@ -23,4 +24,4 @@ This project used **STM32F469I-DISCO** board.
 
 ## Flowchart of Project
 
-	> will be added
+![Flowchart](https://i.ibb.co/GHSf7Pn/Untitled-Diagram-drawio.png)
