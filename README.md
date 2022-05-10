@@ -18,6 +18,7 @@ This project used **STM32F469I-DISCO** board.
 
 - USART pinouts: **PC6**, **PC7**
 	> PC6 --> USART6 **TX**
+	
 	> PC7 --> USART6 **RX**
 
 ## Flowchart of Project
