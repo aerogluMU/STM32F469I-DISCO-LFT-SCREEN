@@ -1,3 +1,4 @@
+
 # STM32F469I-DISCO-LFT-SCREEN
 
 ## Content of Project
@@ -12,6 +13,12 @@ The subject of this project is to develop a software that controls led states us
 ## The Board Used in The Project
 
 This project used **STM32F469I-DISCO** board.
+
+## Pinouts
+
+- USART pinouts: **PC6**, **PC7**
+	> PC6 --> USART6 **TX**
+	> PC7 --> USART6 **RX**
 
 ## Flowchart of Project
 
