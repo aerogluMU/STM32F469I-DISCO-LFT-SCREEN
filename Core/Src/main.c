@@ -757,9 +757,25 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+/*********************************************************************
+ * @fn      		  - HAL_UART_RxCpltCallback
+ *
+ * @brief             - This function called when USART6 RX Interrupts end.
+ *
+ * @param[in]         - Handle structure of UART
+ *
+ * @return            - none
+ *
+ * @Note              - none
+ */
+
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
+	// Set USART6 RX flag 1
 	lftflg.uart6_rx_flag = 1;
+
+	//Call USART6 RX Interrupt
 	HAL_UART_Receive_IT(&huart6, (uint8_t*)RxBuffer, 10);
 }
 /* USER CODE END 4 */

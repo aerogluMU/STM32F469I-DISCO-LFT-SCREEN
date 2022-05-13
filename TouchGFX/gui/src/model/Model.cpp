@@ -15,4 +15,5 @@ void Model::tick(){
 	//	modelListener->dataRxed();
 	//	lftflg.uart6_rx_flag = 0;
 	//}
+
 }

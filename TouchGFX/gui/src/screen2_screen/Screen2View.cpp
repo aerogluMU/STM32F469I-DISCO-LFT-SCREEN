@@ -52,7 +52,6 @@ void Screen2View::ToToggleLed(){
 		// Toggle LED3
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_5);
 	}
-
 }
 
 /*********************************************************************
@@ -80,5 +79,4 @@ void Screen2View::ToggleLED4(){
 		// Toggle LED4
 		HAL_GPIO_TogglePin(GPIOK, GPIO_PIN_3);
 	}
-
 }

@@ -70,6 +70,7 @@ void Screen3View::handleTickEvent(){
 		// Reset USART6 interrupt flag
 		lftflg.uart6_rx_flag = 0;
 	}
+
 }
 
 /*********************************************************************
@@ -91,4 +92,5 @@ void Screen3View::sendHello(){
 
 	// Send TxBuffer array from USART6
 	HAL_UART_Transmit(&huart6, (uint8_t*)TxBuffer, len_of_data, HAL_MAX_DELAY);
+
 }
