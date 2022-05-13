@@ -264,9 +264,23 @@ void HAL_DisableMemorySwappingBank(void);
   * @}
   */
 /* Private types -------------------------------------------------------------*/
+
+/*
+ * This is a Flag structure for a USART6 Interrupt
+ */
+
 typedef struct{
-	uint8_t uart6_rx_flag;
+	uint8_t uart6_rx_flag;	/*!< possible values from @USART6_RX_FLAGS >*/
 }lft_flags;
+
+/*
+ * @USART6_RX_FLAGS
+ * USART6 RX FLAGS
+ */
+
+#define USART6_RX_FLAG_RDY  				0
+#define USART6_RX_FLAG_BSY  				1
+
 /* Private variables ---------------------------------------------------------*/
 /** @defgroup HAL_Private_Variables HAL Private Variables
   * @{

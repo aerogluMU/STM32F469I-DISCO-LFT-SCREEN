@@ -11,8 +11,8 @@ Model::Model() : modelListener(0)
 }
 
 void Model::tick(){
-	if(lftflg.uart6_rx_flag == 1){
-		modelListener->dataRxed();
-		lftflg.uart6_rx_flag = 0;
-	}
+	//if(lftflg.uart6_rx_flag == 1){
+	//	modelListener->dataRxed();
+	//	lftflg.uart6_rx_flag = 0;
+	//}
 }

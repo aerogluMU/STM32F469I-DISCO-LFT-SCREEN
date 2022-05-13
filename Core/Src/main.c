@@ -142,9 +142,17 @@ int main(void)
   MX_USART6_UART_Init();
   MX_TouchGFX_Init();
   /* USER CODE BEGIN 2 */
+
+  // Calculate TxBufferStart length
   len_of_data = strlen(TxBufferStart);
+
+  // Send TxBufferStart array from USART6
   HAL_UART_Transmit(&huart6, (uint8_t*)TxBufferStart, len_of_data, HAL_MAX_DELAY);
+
+  // Reset USART6 interrupt flag
   lftflg.uart6_rx_flag = 0;
+
+  //Call USART6 RX Interrupt
   HAL_UART_Receive_IT(&huart6, (uint8_t*)RxBuffer, 10);
   /* USER CODE END 2 */
 
