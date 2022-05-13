@@ -24,6 +24,7 @@ This project used **STM32F469I-DISCO** board.
 
 ## Flowchart of Project
 
+```mermaid
 graph TD
     A[Start] --> B[Initialization]
     B --> C[Main Menu]
@@ -51,4 +52,4 @@ graph TD
     L --> |No| U
     M --> |Yes| MYES(Display received data)
     M --> |No| U
-
+```
