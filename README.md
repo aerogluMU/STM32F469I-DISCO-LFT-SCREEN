@@ -11,6 +11,10 @@ The subject of this project is to develop a software that controls led states us
 - The communication protocols used are respectively: **USART**, **Can BUS**
 	> USART and Can BUS communication protocols are bilateral.
 
+## Release Note
+
+Details about the content of this release are available in the release note [here](https://github.com/lifternarge/STM32F469I-DISCO-LFT-SCREEN/blob/v.1.0/Release_Notes.html).
+
 ## The Board Used in The Project
 
 This project used **STM32F469I-DISCO** board.
