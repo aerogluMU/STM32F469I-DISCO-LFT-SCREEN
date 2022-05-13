@@ -6,7 +6,7 @@
 
 The subject of this project is to develop a software that controls led states using various functions and provides communication using various communication protocols. In addition, it is to make a design that will show these situations on the TFT screen.
 
-- The functions to be used to change the states of the LEDs are respectively: **GPIO Toggle**
+- The functions to be used to change the states of the LEDs are respectively: **GPIO TOGGLE**
 
 - The communication protocols used are respectively: **USART**, **Can BUS**
 	> USART and Can BUS communication protocols are bilateral.
