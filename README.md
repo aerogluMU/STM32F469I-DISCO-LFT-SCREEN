@@ -56,4 +56,10 @@ graph TD
     L --> |No| U
     M --> |Yes| MYES(Display received data)
     M --> |No| U
+    M --> |Yes| BOX817{Is USART6 receive data has 817?}
+    BOX817 --> |YES| BOX817YES(Change boxDoors color GREEN)
+    BOX817 --> |NO| BOX817NO(DO NOT Change boxDoors color)
+    M --> |Yes| BOX818{Is USART6 receive data has 817?}
+    BOX818 --> |YES| BOX818YES(Change boxDoors color RED)
+    BOX818 --> |NO| BOX818NO(DO NOT Change boxDoors color)
 ```
